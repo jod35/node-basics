@@ -31,5 +31,5 @@ console.log('Starting the app');
  fs.appendFileSync('greetings.txt',`Hello ${user.username}!`);
 
  //in this we used the template string feature in ES6
- //it also writes 'Hello jon' to the same greetings.txt file 
+ //it also writes 'Hello jon' to the same greetings.txt file    
 

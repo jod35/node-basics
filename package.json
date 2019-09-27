@@ -1,0 +1,19 @@
+{
+  "name": "node_third_party_modules",
+  "version": "1.0.0",
+  "description": "learning about the node party modules",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jod35/node-basics.git"
+  },
+  "author": "jod35",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jod35/node-basics/issues"
+  },
+  "homepage": "https://github.com/jod35/node-basics#readme"
+}

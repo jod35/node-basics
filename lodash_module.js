@@ -20,4 +20,7 @@ console.log(_.uniq(myArray));
 
 //returns [ 'Jovia', 1, 2, 3 ]
 
+//the other module is 'nodemon' which is a commandline utilty that helps us to do live reloads on saving
+
+
 

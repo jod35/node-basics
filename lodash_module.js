@@ -3,10 +3,21 @@ var fs =require('fs');
 
 const _ =require('lodash');
 
-console.log(_.isString(true));
+//lodash has many utilities that help us to find out the data type of a specific variable.
 
-console.log(_.isString('Jonathan'));
+// //lodash.isString 
+// console.log(_.isString(true));
+// //returns false
+// console.log(_.isString('Jonathan'));
+// //returns true
 
+//lodash.uniq
 
+//this returns an array with no duplicates
+
+const myArray=['Jovia',1,2,3,'Jovia']
+console.log(_.uniq(myArray));
+
+//returns [ 'Jovia', 1, 2, 3 ]
 
 

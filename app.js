@@ -4,6 +4,7 @@ console.log('Starting app.js');
 const fs =require('fs');
 const os =require('os');
 const _ =require('lodash');
+const yargs =require('yargs');
 
 const notes =require('./notes');
 console.log(process.argv);
@@ -15,14 +16,17 @@ console.log(process.argv);
 // -the executable of the node we use
 // -the js file we are running
 // -the command argument we are giving
+const argv = yargs.argv;
 
 
 var command =process.argv[2]; //this points to the command we are giving as an argument.
 
+console.log('Process : ',yargs.argv);
 console.log('command : ',command); //logs the command
 
 if (command =='add') {
     console.log('Adding new notes');
+    notes.addNote(argv.title,argv.body);
     
 }
 else if (command == 'list') {
